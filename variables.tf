@@ -31,11 +31,23 @@ variable "vpc_name" {
   description = "VPC network & subnet name"
 }
 
+variable "vm_web_image" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "VM OS image"
+}
+  
+variable "vm_web_platform" {
+  type        = string
+  default     = "standard-v3"
+  description = "VM platform"
+}
 
 ###ssh vars
 
 variable "vms_ssh_root_key" {
   type        = string
-  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH/lxMLqZC+lwjADv+l+WZhsm52vVmzm62jwOJrm45EM se@ub-srv-beelink"
+  default     = "/home/se/.ssh/yckey"
   description = "ssh-keygen -t ed25519"
 }
+

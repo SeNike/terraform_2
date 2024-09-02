@@ -10,7 +10,7 @@
 
 ![img](https://github.com/SeNike/Study_24/blob/main/4.Terraform/1.png)
 
-####ответы на вопросы.
+#### Ответы на вопросы.
 
     Ошибка в параметре platform_id: "standart-v4" не существует, исправлено на "standard-v3"
     Исправлены ошибочные значения cores, memory, core_fraction

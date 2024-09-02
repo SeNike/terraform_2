@@ -44,6 +44,8 @@
 
 В качестве решения приложите вывод значений ip-адресов команды ```terraform output```.
 
+![img](https://github.com/SeNike/Study_24/blob/main/4.Terraform/5.1.png) 
+
 
 ### Задание 5
 

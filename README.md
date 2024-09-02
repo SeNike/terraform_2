@@ -4,11 +4,11 @@
 ### Задание 1
 - скриншот ЛК Yandex Cloud с созданной ВМ, где видно внешний ip-адрес;
 
-![img](https://github.com/SeNike/Study_24/blob/main/4.Terraform/2.png)
+![img](https://github.com/SeNike/Study_24/blob/main/4.Terraform/2.1.png)
   
 - скриншот консоли, curl должен отобразить тот же внешний ip-адрес;
 
-![img](https://github.com/SeNike/Study_24/blob/main/4.Terraform/1.png)
+![img](https://github.com/SeNike/Study_24/blob/main/4.Terraform/1.1.png)
 
 #### Ответы на вопросы.
 

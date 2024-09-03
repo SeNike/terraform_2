@@ -11,7 +11,7 @@ variable "default_cidr_db" {
 
 variable "vpc_name_db" {
   type        = string
-  default     = "develop_db"
+  default     = "develop-db"
   description = "VPC network & subnet name"
 }
 

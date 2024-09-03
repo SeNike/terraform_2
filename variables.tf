@@ -1,9 +1,3 @@
-###cloud vars
-#variable "token" {
-#  type        = string
-#  description = "OAuth-token; https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token"
-#}
-
 variable "cloud_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
@@ -27,7 +21,7 @@ variable "default_cidr" {
 
 variable "vpc_name" {
   type        = string
-  default     = "develop"
+  default     = "develop-web"
   description = "VPC network & subnet name"
 }
 
@@ -42,6 +36,19 @@ variable "vm_web_platform" {
   default     = "standard-v3"
   description = "VM platform"
 }
+
+variable "vms_resources" {
+  type = map(any)
+ description = "VM resourses map"
+
+}
+
+variable "metadata" {
+  type = map(string)
+  description = "Access key map"
+
+}
+
 
 ###ssh vars
 

@@ -13,7 +13,7 @@ vms_resources = {
 
 metadata = {
     serial-port-enable = "1",
-    ssh-keys = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH/lxMLqZC+lwjADv+l+WZhsm52vVmzm62jwOJrm45EM se@ub-srv-beelink"
+    ssh-keys = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZOS6vyO6TIsqraWZNBF/HGkI92RvNFS9J4eMPfBObo se@ub-srv-beelink"
 }
 
 test = [
